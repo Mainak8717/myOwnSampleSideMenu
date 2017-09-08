@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{F3732E6A-0070-4A30-A5C9-226BC5C86318}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="myOwnSampleSideMenu/SideBarMenuController.cs">
+    <Files>
+      <File FileName="myOwnSampleSideMenu/MenuCell.cs" Line="49" Column="12" />
+      <File FileName="myOwnSampleSideMenu/SideBarControllerBase.cs" Line="1" Column="1" />
+      <File FileName="myOwnSampleSideMenu/SideBarMenuController.cs" Line="228" Column="1" />
+      <File FileName="myOwnSampleSideMenu/SecondVC.cs" Line="12" Column="44" />
+      <File FileName="myOwnSampleSideMenu/HomeVC.cs" Line="10" Column="65" />
+      <File FileName="myOwnSampleSideMenu/BaseVC.cs" Line="51" Column="1" />
+      <File FileName="myOwnSampleSideMenu/PageNavigationHelper.cs" Line="70" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/KolkataMobility/Projects/myOwnSampleSideMenu/myOwnSampleSideMenu/BaseVC.cs" relfile="myOwnSampleSideMenu/BaseVC.cs" line="51" column="1" />
+      <Breakpoint file="/Users/KolkataMobility/Projects/myOwnSampleSideMenu/myOwnSampleSideMenu/PageNavigationHelper.cs" relfile="myOwnSampleSideMenu/PageNavigationHelper.cs" line="70" column="1" />
+      <Breakpoint file="/Users/KolkataMobility/Projects/myOwnSampleSideMenu/myOwnSampleSideMenu/BaseVC.cs" relfile="myOwnSampleSideMenu/BaseVC.cs" line="33" column="1" />
+      <Breakpoint file="/Users/KolkataMobility/Projects/myOwnSampleSideMenu/myOwnSampleSideMenu/BaseVC.cs" relfile="myOwnSampleSideMenu/BaseVC.cs" line="38" column="1" />
+      <Breakpoint file="/Users/KolkataMobility/Projects/myOwnSampleSideMenu/myOwnSampleSideMenu/SideBarMenuController.cs" relfile="myOwnSampleSideMenu/SideBarMenuController.cs" line="227" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.myOwnSampleSideMenu PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.27EBCBDD-BBE4-445D-8452-A3AB9C6E1E9B" />
+</Properties>

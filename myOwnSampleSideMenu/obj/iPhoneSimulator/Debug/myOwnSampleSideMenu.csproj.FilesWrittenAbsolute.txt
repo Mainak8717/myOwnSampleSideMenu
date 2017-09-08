@@ -1,0 +1,9 @@
+/Users/KolkataMobility/Projects/myOwnSampleSideMenu/myOwnSampleSideMenu/obj/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/KolkataMobility/Projects/myOwnSampleSideMenu/myOwnSampleSideMenu/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3/ibtool/_BundleResourceWithLogicalName.items
+/Users/KolkataMobility/Projects/myOwnSampleSideMenu/myOwnSampleSideMenu/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3/actool/_PartialAppManifest.items
+/Users/KolkataMobility/Projects/myOwnSampleSideMenu/myOwnSampleSideMenu/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3/actool/_BundleResourceWithLogicalName.items
+/Users/KolkataMobility/Projects/myOwnSampleSideMenu/myOwnSampleSideMenu/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3/optimized/
+/Users/KolkataMobility/Projects/myOwnSampleSideMenu/myOwnSampleSideMenu/bin/iPhoneSimulator/Debug/myOwnSampleSideMenu.pdb
+/Users/KolkataMobility/Projects/myOwnSampleSideMenu/myOwnSampleSideMenu/bin/iPhoneSimulator/Debug/myOwnSampleSideMenu.exe
+/Users/KolkataMobility/Projects/myOwnSampleSideMenu/myOwnSampleSideMenu/obj/iPhoneSimulator/Debug/myOwnSampleSideMenu.exe
+/Users/KolkataMobility/Projects/myOwnSampleSideMenu/myOwnSampleSideMenu/obj/iPhoneSimulator/Debug/myOwnSampleSideMenu.pdb

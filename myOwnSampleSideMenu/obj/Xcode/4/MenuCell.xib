@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MenuCell"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MenuCellId" rowHeight="44" id="cxk-wN-pdQ" customClass="MenuCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="cxk-wN-pdQ" id="YTl-1W-gDM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Dx-v2-6mN" userLabel="HostView">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Rk6-vb-U9g" userLabel="Icon">
+                                <rect key="frame" x="15" y="10" width="24" height="23.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="24" id="hll-rX-ycW"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MK4-LD-jgX" userLabel="Title">
+                                <rect key="frame" x="54" y="10" width="31.5" height="23.5"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" red="0.066666666666666666" green="0.39215686274509803" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yWC-2C-aGv" userLabel="Seperator">
+                                <rect key="frame" x="0.0" y="42.5" width="320" height="1"/>
+                                <color key="backgroundColor" red="0.70980392156862748" green="0.70980392156862748" blue="0.70980392156862748" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="7B4-yp-Dds"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="MK4-LD-jgX" firstAttribute="top" secondItem="2Dx-v2-6mN" secondAttribute="top" constant="10" id="ILi-8M-ZpB"/>
+                            <constraint firstAttribute="trailing" secondItem="yWC-2C-aGv" secondAttribute="trailing" id="U7T-Wn-aR9"/>
+                            <constraint firstAttribute="bottom" secondItem="Rk6-vb-U9g" secondAttribute="bottom" constant="10" id="aJ6-o6-j8S"/>
+                            <constraint firstItem="MK4-LD-jgX" firstAttribute="leading" secondItem="Rk6-vb-U9g" secondAttribute="trailing" constant="15" id="cdq-s5-f0V"/>
+                            <constraint firstItem="Rk6-vb-U9g" firstAttribute="leading" secondItem="2Dx-v2-6mN" secondAttribute="leading" constant="15" id="hbz-Nf-aBr"/>
+                            <constraint firstAttribute="bottom" secondItem="yWC-2C-aGv" secondAttribute="bottom" id="kYG-eX-FS8"/>
+                            <constraint firstItem="Rk6-vb-U9g" firstAttribute="top" secondItem="2Dx-v2-6mN" secondAttribute="top" constant="10" id="pw2-kM-FDv"/>
+                            <constraint firstAttribute="bottom" secondItem="MK4-LD-jgX" secondAttribute="bottom" constant="10" id="yaf-Qo-eEx"/>
+                            <constraint firstItem="yWC-2C-aGv" firstAttribute="leading" secondItem="2Dx-v2-6mN" secondAttribute="leading" id="ziy-US-2Q1"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="2Dx-v2-6mN" firstAttribute="top" secondItem="YTl-1W-gDM" secondAttribute="top" id="3Uh-zh-nLN"/>
+                    <constraint firstAttribute="bottom" secondItem="2Dx-v2-6mN" secondAttribute="bottom" id="ULZ-ar-DaV"/>
+                    <constraint firstItem="2Dx-v2-6mN" firstAttribute="leading" secondItem="YTl-1W-gDM" secondAttribute="leading" id="Wj7-n2-IXn"/>
+                    <constraint firstAttribute="trailing" secondItem="2Dx-v2-6mN" secondAttribute="trailing" id="jJi-cE-0L6"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="menuIcon" destination="Rk6-vb-U9g" id="lSA-Wm-jjM"/>
+                <outlet property="menuTitle" destination="MK4-LD-jgX" id="k7r-RR-KG3"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>
